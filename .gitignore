@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+# 컴퓨터마다 다른 파이썬 경로 (1_install.bat 이 만듭니다)
+python.txt
+# 게임 파일·작업 폴더·배포 압축본은 올리지 않습니다
+*_loc/
+__gameloc_backup__/
+/*.zip

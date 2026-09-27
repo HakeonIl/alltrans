@@ -1,0 +1,3 @@
+# Windows batch files: stored as-is (CP949 + CRLF). cmd.exe misreads
+# lines when Korean text is combined with LF-only line endings.
+*.bat -text

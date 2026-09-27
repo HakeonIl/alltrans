@@ -1,0 +1,46 @@
+{
+  "style": "학원 코미디. 가볍고 자연스러운 구어체. 일본식 존칭(~さん, ~先輩)은 한국식으로 바꾼다.",
+  "characters": {
+    "yuri": {
+      "names": ["ユリ", "ユリちゃん", "橘", "얼굴:Actor1"],
+      "ko_name": "유리",
+      "gender": "여성",
+      "age": "고등학생",
+      "profile": "주인공의 소꿉친구. 밝고 참견이 많음.",
+      "speech": "명랑한 반말. ~거든, ~잖아를 자주 씀.",
+      "first_person": "나",
+      "quirks": "놀라면 '에엑?!'",
+      "avoid": "욕설",
+      "examples": [{"ja": "もう、遅いよ！", "ko": "진짜, 늦었잖아!"}],
+      "to": {
+        "taro": {"register": "반말", "calls_them": "타로",
+                 "examples": [{"ja": "タロウ、また寝坊？", "ko": "타로, 또 늦잠 잤어?"}]},
+        "sensei": {"register": "존댓말", "calls_them": "선생님"},
+        "*": {"register": "존댓말"}
+      }
+    },
+    "taro": {
+      "names": ["タロウ", "俺", "主人公"],
+      "ko_name": "타로",
+      "gender": "남성",
+      "speech": "무뚝뚝하고 짧은 반말.",
+      "first_person": "나",
+      "to": {
+        "yuri": {"register": "반말", "calls_them": "유리"},
+        "sensei": {"register": "존댓말", "calls_them": "선생님"}
+      }
+    },
+    "sensei": {
+      "names": ["先生", "山田先生"],
+      "ko_name": "야마다 선생님",
+      "gender": "남성",
+      "speech": "딱딱하고 사무적인 말투.",
+      "to": {"*": {"register": "반말", "calls_them": "이름"}}
+    }
+  },
+  "glossary": {
+    "図書館": "도서관",
+    "生徒会": "학생회",
+    "魔力": {"ko": "마력", "note": "스탯 이름"}
+  }
+}
